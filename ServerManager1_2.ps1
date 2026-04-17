@@ -100,7 +100,9 @@ function Run-OnServer {
 $script:form               = [System.Windows.Forms.Form]::new()
 $script:form.Text          = "Server Command Center"
 $script:form.Size          = [System.Drawing.Size]::new(1160, 780)
-$script:form.MinimumSize   = [System.Drawing.Size]::new(900, 600)
+$script:form.FormBorderStyle = [System.Windows.Forms.FormBorderStyle]::FixedSingle
+$script:form.MaximizeBox   = $false
+$script:form.ShowIcon      = $false
 $script:form.StartPosition = "CenterScreen"
 $script:form.BackColor     = $script:cBgDark
 $script:form.ForeColor     = $script:cTextPrimary
