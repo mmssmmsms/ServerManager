@@ -1163,3 +1163,7 @@ AppendLine "Add servers on the left, check them, then click an action." $script:
 AppendLine "" $script:cTextMuted
 
 [System.Windows.Forms.Application]::Run($script:form)
+
+# adding end comment for testing
+# more testing lines
+# test
